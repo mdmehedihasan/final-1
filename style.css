@@ -9,7 +9,7 @@
 }
 .section-1 h1{
     font-size: 60px;
-    font-weight: 900;
+    font-weight: 700;
     border-left: 4px solid tomato;
     padding-left: 10px;
     line-height: 65px;
@@ -43,4 +43,45 @@
 .size-of-image{
     width: 70%;
     margin-top: -130px; 
+}
+
+.section-2{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 100px;
+    
+}
+.section-2 h1{
+    text-align: center;
+    padding: 10px 0px 50px 0px;
+    font-size: 60px;
+    font-weight: 700;
+}
+.mission{
+    display: flex;
+   
+
+    
+}
+.mission img{
+    width: 50%;
+    
+}
+.mission-type{
+    background-color: #f2f2f2;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 30px;
+}
+.mission-type h2{
+    padding: 10px 0 10px 0;
+}
+#mission-1{
+    background-color: whitesmoke;
+}
+#mission-2{
+    background-color: yellow;
+}
+#mission-3{
+    background-color: red;
 }
