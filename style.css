@@ -1,6 +1,8 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
 }
 
 /* Section 1 Css */
@@ -13,7 +15,7 @@
 }
 .section-1 h1{
     font-family: 'Merriweather', serif;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 700;
     border-left: 4px solid #F47340;
     padding-left: 10px;
@@ -21,6 +23,9 @@
 }
 .tomato-color{
     color:#F47340;
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+    font-weight: 700
 }
 #button-design{
     border-radius: 5px;
@@ -64,36 +69,45 @@
 .section-2 h1{
     text-align: center;
     padding: 10px 0px 50px 0px;
-    font-size: 60px;
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
     font-weight: 700;
 }
 .mission{
-    display: flex;
-   
-
-    
+    display: flex;  
 }
 .mission img{
     width: 50%;
     
+}
+.mission p{
+    font-size: 15px;
 }
 .mission-type{
     background-color: #f2f2f2;
     margin-right: 10px;
     border-radius: 10px;
     padding: 30px;
+    box-shadow: 5px 5px 5px #dfdddd;
+}
+.mission-type:hover{
+
+    box-shadow: -5px -5px 5px #c4c2c2; 
 }
 .mission-type h2{
     padding: 10px 0 10px 0;
 }
 #mission-1{
     background-color:#F0ECE3;
+    width: 33.33%;
 }
 #mission-2{
     background-color: #FEE3EC;
+    width: 33.33%;
 }
 #mission-3{
     background-color: #D9D7F1;
+    width: 33.33%;
 }
 
 /* Section 3 CSS */
