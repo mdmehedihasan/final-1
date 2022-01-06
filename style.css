@@ -5,9 +5,11 @@
 .section-1{
     display: flex;
     padding-top: 100px;
+    font-family: 'Poppins', sans-serif;
     
 }
 .section-1 h1{
+    font-family: 'Merriweather', serif;
     font-size: 60px;
     font-weight: 700;
     border-left: 4px solid #F47340;
@@ -36,6 +38,7 @@
 .para{
     margin: 10px 0 50px 0;
     font-family: ;
+    text-align: justify;
 }
 .message{
     margin-top: 30px;
@@ -46,7 +49,7 @@
 }
 .size-of-image{
     width: 70%;
-    margin-top: -130px; 
+    margin-top: -80px; 
 }
 
 .section-2{
@@ -81,13 +84,13 @@
     padding: 10px 0 10px 0;
 }
 #mission-1{
-    background-color: whitesmoke;
+    background-color:#F0ECE3;
 }
 #mission-2{
-    background-color: yellow;
+    background-color: #FEE3EC;
 }
 #mission-3{
-    background-color: red;
+    background-color: #D9D7F1;
 }
 .section-3{
     display: flex;
